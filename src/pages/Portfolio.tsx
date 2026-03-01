@@ -308,34 +308,36 @@ export default function Portfolio() {
                       alt="Dashboard Analytics UI"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       data-alt="Modern analytics dashboard interface on laptop"
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5hxkoZfqsJ9WLwfCZ6TlxTHgbOBcQDdWqYXatP38lsrhpY91V2SEtzwu1gth_Bi_ptjX0ENT5xEH6weDq8-11h_FGbAA61Z9VnEZkdguq0jyWTHsexUIOkD344fSMVmSxHHvNt9kdvkz4vX-2v4EFJ-YYRcit2-Lnz_JGoLdzyz0j-Ef2SEBOy633htoEQlxdsPd_skbk7p0YA9p2JjQ9pzVaoXvqkhI4yBRbJsB5YmSh99TDXPbp3XUesCLNwf0hN2zCRLt5MOc"
+                      src="../src/assets/imgs/TheScentStore1.png"
                     />
                     <div className="absolute top-3 right-3 z-20">
-                      <div className="w-8 h-8 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center text-white hover:bg-primary hover:text-black transition-colors cursor-pointer">
-                        <span className="material-symbols-outlined text-lg">
-                          arrow_outward
-                        </span>
-                      </div>
+                      <a href="https://github.com/luchodevhat/PowerFit">
+                        <div className="w-8 h-8 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center text-white hover:bg-primary hover:text-black transition-colors cursor-pointer">
+                          <span className="material-symbols-outlined text-lg">
+                            arrow_outward
+                          </span>
+                        </div>
+                      </a>
                     </div>
                   </div>
                   <div className="p-5 flex flex-col flex-1">
                     <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">
-                      FinTech Dashboard
+                      PorwerFit
                     </h3>
                     <p className="text-slate-600 dark:text-slate-400 text-sm mb-4 flex-1 line-clamp-3">
-                      A comprehensive financial analytics dashboard featuring
-                      real-time data visualization, transaction management, and
-                      automated reporting tools.
+                      This project allows users to explore products,
+                      view detailed information, and simulate a seamless
+                      online shopping experience.
                     </p>
                     <div className="flex flex-wrap gap-2 mt-auto">
                       <span className="px-2 py-1 bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wide rounded">
-                        React
+                        Javascript
                       </span>
                       <span className="px-2 py-1 bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wide rounded">
-                        D3.js
+                        Node.js
                       </span>
                       <span className="px-2 py-1 bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wide rounded">
-                        Tailwind
+                        Oracle SQL
                       </span>
                     </div>
                   </div>
@@ -348,31 +350,34 @@ export default function Portfolio() {
                       alt="E-commerce mobile app"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       data-alt="Data visualization on screen"
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuARrWLGQc5RV3vselu_VMA9iTTs30aMifcK-yinNuh5UYvmglopuZW8X-mMVb1Nl8O17m7yVX_l7ckgfLVOfG8tc9b-24UWq0FXrnuISuEMQQ7LYmd6fvWW2Uo-k-E1FhArugNcub7l56ss7zi4vGpvq5aUTB5kku_8TzCr9605DJN3_pxK8lBtMRqPP3h6RDTpNOF9iq-YFl4OdfCdL7fYkxv-Y-LNRWYAXVocKVvg-2dGpS3qf9l0hit0j1-KRKiYIu2V7viRaK0"
+                      src="../src/assets/imgs/Clinica1.png"
                     />
                     <div className="absolute top-3 right-3 z-20">
-                      <div className="w-8 h-8 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center text-white hover:bg-primary hover:text-black transition-colors cursor-pointer">
-                        <span className="material-symbols-outlined text-lg">
-                          arrow_outward
-                        </span>
-                      </div>
+                      <a href="https://github.com/vvegx06/awcsgrupo8">
+                        <div className="w-8 h-8 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center text-white hover:bg-primary hover:text-black transition-colors cursor-pointer">
+                          <span className="material-symbols-outlined text-lg">
+                            arrow_outward
+                          </span>
+                        </div>
+                      </a>
                     </div>
                   </div>
                   <div className="p-5 flex flex-col flex-1">
                     <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">
-                      HealthTrack App
+                      Clinica Jhon Vega
                     </h3>
                     <p className="text-slate-600 dark:text-slate-400 text-sm mb-4 flex-1 line-clamp-3">
-                      A cross-platform mobile application for tracking fitness
-                      goals, caloric intake, and workout routines with social
-                      sharing capabilities.
+                      Responsive dental clinic website designed to
+                      manage patient appointments in a clear and organized way.
+                      It provides a clean user interface for scheduling, viewing,
+                      and managing dental appointments, focusing on usability and simplicity.
                     </p>
                     <div className="flex flex-wrap gap-2 mt-auto">
                       <span className="px-2 py-1 bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wide rounded">
-                        React Native
+                        Javascript
                       </span>
                       <span className="px-2 py-1 bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wide rounded">
-                        Firebase
+                        Oracle SQL
                       </span>
                     </div>
                   </div>
@@ -385,34 +390,36 @@ export default function Portfolio() {
                       alt="Abstract UI design"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       data-alt="Abstract blue digital pattern"
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuDL9BZXK6H87BCxG3hx4ApYKvTkj_Q2HHVcbXP0DDlVpOwMtLMNtNhP1l-jI71fX-eJ0AJ2kI_g09lNjW2XgbckuHRzK7k7EKrhakNhtWyGuPWYImICVvfhGR6_smeHvNlheyXPxqRSLLGQ-tV5jV3C4HDuyZ7_cAwXYbS31xTCiU2UZuEwKn38MmNrKuk01GYf_JKbIm9v2m3OCha3zvdofjdooEjOsPAnfEa3zQc7m_6HxjJABerQ046Ndf_46hrCRkfWX-9bYt0"
+                      src="../src/assets/imgs/TheScentNew.png"
                     />
                     <div className="absolute top-3 right-3 z-20">
-                      <div className="w-8 h-8 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center text-white hover:bg-primary hover:text-black transition-colors cursor-pointer">
-                        <span className="material-symbols-outlined text-lg">
-                          arrow_outward
-                        </span>
-                      </div>
+                      <a href="https://github.com/luchodevhat/TheScentClub">
+                        <div className="w-8 h-8 rounded-full bg-black/50 backdrop-blur-sm flex items-center justify-center text-white hover:bg-primary hover:text-black transition-colors cursor-pointer">
+                          <span className="material-symbols-outlined text-lg">
+                            arrow_outward
+                          </span>
+                        </div>
+                      </a>
                     </div>
                   </div>
                   <div className="p-5 flex flex-col flex-1">
                     <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-2">
-                      Design System UI
+                      The Scent Club
                     </h3>
                     <p className="text-slate-600 dark:text-slate-400 text-sm mb-4 flex-1 line-clamp-3">
-                      A scalable and accessible component library built for a SaaS
-                      product, ensuring consistency across multiple development
-                      teams.
+                      The Scent Club is an online perfume store designed with a
+                      premium look and optimized user experience. Built with HTML5,
+                      CSS3, JavaScript, and Bootstrap.
                     </p>
                     <div className="flex flex-wrap gap-2 mt-auto">
                       <span className="px-2 py-1 bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wide rounded">
-                        Storybook
+                        Bootstrap
                       </span>
                       <span className="px-2 py-1 bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wide rounded">
-                        Sass
+                        Javascript
                       </span>
                       <span className="px-2 py-1 bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-wide rounded">
-                        Figma
+                        CSS3
                       </span>
                     </div>
                   </div>
@@ -433,19 +440,19 @@ export default function Portfolio() {
                 <div className="flex gap-4">
                   <a
                     className="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-black transition-colors"
-                    href="#"
+                    href="mailto:alfaroalejandro597@gmail.com"
                   >
                     <span className="material-symbols-outlined text-xl">mail</span>
                   </a>
                   <a
                     className="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-black transition-colors"
-                    href="#"
+                    href="https://github.com/luchodevhat"
                   >
                     <span className="material-symbols-outlined text-xl">code</span>
                   </a>
                   <a
                     className="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-black transition-colors"
-                    href="#"
+                    href="https://www.linkedin.com/in/alejandro-alfaro-36a245345"
                   >
                     <span className="material-symbols-outlined text-xl">
                       alternate_email
@@ -454,7 +461,7 @@ export default function Portfolio() {
                 </div>
               </div>
               <div className="mt-8 text-center text-xs text-slate-400 dark:text-slate-600">
-                © 2023 Luis Alfaro. All rights reserved.
+                © 2026 Luis Alfaro. All rights reserved.
               </div>
             </footer>
           </div>
