@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => {
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
-    }, base: "https://github.com/luchodevhat/Portfolio-Updated",
+    }, base: "/Portfolio-Updated/",
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
