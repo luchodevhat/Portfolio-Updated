@@ -1,6 +1,21 @@
 import React from 'react';
+import imgPowerFit from '../assets/imgs/TheScentStore1.png';
+import imgClinica from '../assets/imgs/Clinica1.png';
+import imgTheScent from '../assets/imgs/TheScentNew.png';
 
 export default function Portfolio() {
+  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault();
+    if (id === 'top') {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="dark bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display min-h-screen flex flex-col overflow-x-hidden antialiased">
       <div className="layout-container flex h-full grow flex-col">
@@ -20,32 +35,32 @@ export default function Portfolio() {
               <div className="flex flex-1 justify-end gap-8">
                 <div className="hidden md:flex items-center gap-9">
                   <a
-                    className="text-slate-700 hover:text-primary dark:text-slate-300 dark:hover:text-primary text-sm font-medium leading-normal transition-colors"
-                    href="#"
+                    className="text-slate-700 hover:text-primary dark:text-slate-300 dark:hover:text-primary text-sm font-medium leading-normal transition-colors cursor-pointer"
+                    onClick={(e) => scrollToSection(e, 'top')}
                   >
                     Home
                   </a>
                   <a
-                    className="text-slate-700 hover:text-primary dark:text-slate-300 dark:hover:text-primary text-sm font-medium leading-normal transition-colors"
-                    href="#experience"
+                    className="text-slate-700 hover:text-primary dark:text-slate-300 dark:hover:text-primary text-sm font-medium leading-normal transition-colors cursor-pointer"
+                    onClick={(e) => scrollToSection(e, 'experience')}
                   >
                     Experience
                   </a>
                   <a
-                    className="text-slate-700 hover:text-primary dark:text-slate-300 dark:hover:text-primary text-sm font-medium leading-normal transition-colors"
-                    href="#skills"
+                    className="text-slate-700 hover:text-primary dark:text-slate-300 dark:hover:text-primary text-sm font-medium leading-normal transition-colors cursor-pointer"
+                    onClick={(e) => scrollToSection(e, 'skills')}
                   >
                     Skills
                   </a>
                   <a
-                    className="text-slate-700 hover:text-primary dark:text-slate-300 dark:hover:text-primary text-sm font-medium leading-normal transition-colors"
-                    href="#projects"
+                    className="text-slate-700 hover:text-primary dark:text-slate-300 dark:hover:text-primary text-sm font-medium leading-normal transition-colors cursor-pointer"
+                    onClick={(e) => scrollToSection(e, 'projects')}
                   >
                     Projects
                   </a>
                 </div>
                 <button className="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-slate-900 text-sm font-bold leading-normal tracking-[0.015em] hover:brightness-110 transition-all">
-                  <span className="truncate">Contact Me</span>
+                  <a href="mailto:alfaroalejandro597@gmail.com"><span className="truncate">Contact Me</span></a>
                 </button>
               </div>
             </header>
@@ -66,7 +81,7 @@ export default function Portfolio() {
                   <div className="inline-flex items-center justify-center gap-2 px-3 py-1 rounded-full bg-surface-dark border border-slate-700/50 self-center mb-2">
                     <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
                     <span className="text-xs font-medium text-slate-300">
-                      Available for new projects
+                      Open to work
                     </span>
                   </div>
                   <h1 className="text-white text-5xl md:text-7xl font-black leading-tight tracking-[-0.033em]">
@@ -82,10 +97,10 @@ export default function Portfolio() {
                 </div>
                 <div className="flex flex-wrap gap-4 justify-center mt-4 z-10">
                   <button className="flex min-w-[140px] cursor-pointer items-center justify-center rounded-lg h-12 px-6 bg-primary text-slate-900 text-base font-bold leading-normal tracking-[0.015em] hover:scale-105 transition-transform shadow-lg shadow-primary/25">
-                    <span className="truncate">View My Work</span>
+                    <span className="truncate" onClick={(e) => scrollToSection(e, 'experience')}>View My Work</span>
                   </button>
                   <button className="flex min-w-[140px] cursor-pointer items-center justify-center rounded-lg h-12 px-6 bg-surface-dark border border-slate-600 hover:border-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:scale-105 transition-all">
-                    <span className="truncate">Download CV</span>
+                    <span className="truncate" onClick={(e) => scrollToSection(e, 'experience')}>Skills</span>
                   </button>
                 </div>
               </div>
@@ -308,7 +323,7 @@ export default function Portfolio() {
                       alt="Dashboard Analytics UI"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       data-alt="Modern analytics dashboard interface on laptop"
-                      src="../src/assets/imgs/TheScentStore1.png"
+                      src={imgPowerFit}
                     />
                     <div className="absolute top-3 right-3 z-20">
                       <a href="https://github.com/luchodevhat/PowerFit">
@@ -350,7 +365,7 @@ export default function Portfolio() {
                       alt="E-commerce mobile app"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       data-alt="Data visualization on screen"
-                      src="../src/assets/imgs/Clinica1.png"
+                      src={imgClinica}
                     />
                     <div className="absolute top-3 right-3 z-20">
                       <a href="https://github.com/vvegx06/awcsgrupo8">
@@ -390,7 +405,7 @@ export default function Portfolio() {
                       alt="Abstract UI design"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       data-alt="Abstract blue digital pattern"
-                      src="../src/assets/imgs/TheScentNew.png"
+                      src={imgTheScent}
                     />
                     <div className="absolute top-3 right-3 z-20">
                       <a href="https://github.com/luchodevhat/TheScentClub">
