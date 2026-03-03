@@ -100,7 +100,7 @@ export default function Portfolio() {
                     <span className="truncate" onClick={(e) => scrollToSection(e, 'experience')}>View My Work</span>
                   </button>
                   <button className="flex min-w-[140px] cursor-pointer items-center justify-center rounded-lg h-12 px-6 bg-surface-dark border border-slate-600 hover:border-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:scale-105 transition-all">
-                    <span className="truncate" onClick={(e) => scrollToSection(e, 'experience')}>Skills</span>
+                    <span className="truncate" onClick={(e) => scrollToSection(e, 'skills')}>Skills</span>
                   </button>
                 </div>
               </div>
