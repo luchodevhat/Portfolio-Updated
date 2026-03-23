@@ -91,8 +91,9 @@ export default function Portfolio() {
                     </span>
                   </h1>
                   <h2 className="text-slate-300 text-lg md:text-xl font-normal leading-relaxed max-w-2xl mx-auto">
-                    A passionate Junior Web Developer crafting beautiful, intuitive,
-                    and performant digital experiences with modern web technologies.
+                    I am a Service Coordinator with experience in supporting
+                    secure payment solutions, specializing in software services
+                    and API integrations for POS systems.
                   </h2>
                 </div>
                 <div className="flex flex-wrap gap-4 justify-center mt-4 z-10">
@@ -130,9 +131,38 @@ export default function Portfolio() {
                       <div className="p-5 rounded-xl bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-700/50 hover:border-primary/50 transition-colors shadow-sm">
                         <div className="flex justify-between items-start mb-2 flex-wrap gap-2">
                           <h3 className="text-slate-900 dark:text-white text-lg font-bold">
-                            Junior Web Developer
+                            Service Coordinator
                           </h3>
                           <span className="px-3 py-1 text-xs font-semibold rounded-full bg-primary/10 text-primary border border-primary/20">
+                            2025 - Present
+                          </span>
+                        </div>
+                        <p className="text-primary text-sm font-medium mb-3">
+                          OnePayment Solutions
+                        </p>
+                        <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
+                          Supporting the delivery and performance of secure payment technologies, including software
+                          solutions and APIs for POS systems. Responsible for coordinating service operations,
+                          monitoring team performance, and ensuring seamless integration and functionality of payment services.
+                        </p>
+                      </div>
+                    </div>
+                    {/* Item 2 */}
+                    <div className="flex flex-col items-center gap-1">
+                      <div className="flex items-center justify-center w-10 h-10 rounded-full bg-surface-dark border border-slate-700 text-slate-400 group-hover:text-primary group-hover:border-primary/50 transition-colors">
+                        <span className="material-symbols-outlined text-[20px]">
+                          code
+                        </span>
+                      </div>
+                      <div className="w-[2px] bg-slate-200 dark:bg-slate-700 h-full grow my-2 rounded-full"></div>
+                    </div>
+                    <div className="flex flex-1 flex-col pb-8 group">
+                      <div className="p-5 rounded-xl bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-700/50 hover:border-primary/50 transition-colors shadow-sm">
+                        <div className="flex justify-between items-start mb-2 flex-wrap gap-2">
+                          <h3 className="text-slate-900 dark:text-white text-lg font-bold">
+                            Fullstack Developer
+                          </h3>
+                          <span className="px-3 py-1 text-xs font-semibold rounded-full bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 border dark:border-slate-700">
                             2025 - Present
                           </span>
                         </div>
@@ -146,7 +176,7 @@ export default function Portfolio() {
                         </p>
                       </div>
                     </div>
-                    {/* Item 2 */}
+                    {/* Item 3 */}
                     <div className="flex flex-col items-center gap-1">
                       <div className="flex items-center justify-center w-10 h-10 rounded-full bg-surface-dark border border-slate-700 text-slate-400 group-hover:text-primary group-hover:border-primary/50 transition-colors">
                         <span className="material-symbols-outlined text-[20px]">
@@ -162,7 +192,7 @@ export default function Portfolio() {
                             Technical back office support specialist
                           </h3>
                           <span className="px-3 py-1 text-xs font-semibold rounded-full bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 border dark:border-slate-700">
-                            2025 - Present
+                            2025 - 2026
                           </span>
                         </div>
                         <p className="text-primary text-sm font-medium mb-3">
@@ -176,7 +206,7 @@ export default function Portfolio() {
                         </p>
                       </div>
                     </div>
-                    {/* Item 3 */}
+                    {/* Item 4 */}
                     <div className="flex flex-col items-center gap-1">
                       <div className="flex items-center justify-center w-10 h-10 rounded-full bg-surface-dark border border-slate-700 text-slate-400">
                         <span className="material-symbols-outlined text-[20px]">
